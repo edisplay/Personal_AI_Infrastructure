@@ -263,7 +263,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 - **Pulse** — unified daemon (port 31337): voice, hooks, observability, cron, Life Dashboard, wiki API, optional Telegram/iMessage bridges. Replaces every previous loose service.
 - **The DA** — Digital Assistant identity layer. PRINCIPAL_IDENTITY + DA_IDENTITY pair, loaded at session start. `/interview` walks you through naming your DA, picking a voice, capturing TELOS.
 - **Algorithm v6.3.0** — seven-phase loop (OBSERVE → THINK → PLAN → BUILD → EXECUTE → VERIFY → LEARN). Classifier picks MINIMAL/NATIVE/ALGORITHM and tier (E1–E5) per prompt. Verification doctrine (live-probe, advisor calls, cross-vendor audit at E4/E5).
-- **The ISA** — Ideal State Artifact primitive. One document, twelve sections, five identities. Owned by the **ISA skill**.
+- **ISA System** — Ideal State Artifact primitive. One document, twelve sections, five identities. Owned by the **ISA skill**.
 - **Containment + release tooling** — privacy is structural. Security gates run on every public release; two-stage release (stage → publish) never auto-chains.
 - **Memory v7.6** — structured by purpose: WORK, KNOWLEDGE (typed graph), LEARNING, RELATIONSHIP, OBSERVABILITY, STATE.
 - [Full release notes + migration guide](https://github.com/danielmiessler/LifeOS/releases)
@@ -288,6 +288,20 @@ MIT License - see [LICENSE](LICENSE) for details.
 - Modular architecture with independent skills, Claude Code native design
 
 </details>
+
+---
+
+## Credits
+
+LifeOS is built in the open, and the community's pull requests, forensic bug reports, and fresh-install writeups directly shape every release. The public repo is generated from a private source tree, so community PRs are ported into source with credit rather than merged directly — same fix, durable across releases.
+
+**Code contributions (merged or ported PRs):**
+adamlevoy · anikinsasha · asdf8675309 · atabisz · chrisglick · christauff · HotSauceHacker · imrathion · jbmml · jnpkr · justinkatz94-glitch · ksylvan · m4nt0de4 · MarvinDontPanic · maxolasersquad · Mutdogus · neilinger · neilsoult · pybe · qozle · salmanmkc · sauldataman · Seadubb · Spirotot · StarksLabs · thatsjet
+
+**Bug reports, fresh-install forensics, and design feedback:**
+badosanjos · bnkath2o · brycemagera · catchingknives · DAESA24 · deleyva · DennisTraub · docxology · DolphusCY · donovan-sec · DonovanJonesUK · eccentricnode · fjp-veo · harryf · hjbrandt · HyggeHacker · ichoosetoaccept · infinitelyloopy-bt · JElliottMiller · jdrolls · jlacour-git · jmmarkiewicz · karlwaldman · klausagnoletti · lexilexikon · lgangitano · luccomo · MHoroszowski · michaelaye · mygirleatsmayo · nbost130 · NodarDavituri · NorthwoodsSentinel · packetsherpa · ricklesgibson · rikitikitavi2012-debug · Riskjuggler · simeonzickert · Steffen025 · stratofax · tzioup · vanvonlj · virtualian · vpzed · waveman2020-sudo · wojteksbt · xmasyx
+
+This list is refreshed with each release. If your contribution is missing, open an issue — that's a bug too.
 
 ---
 
